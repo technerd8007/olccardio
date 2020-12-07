@@ -10,6 +10,7 @@
 //Using Geany for programming this software. 
 //This is the commands for my setup. Your include and lib locations may differ.
 //g++ -o OLCar main.cpp -lX11 -lGL -lpthread -lpng -I/home/pi/Documents/Documents/include -L/home/pi/Documents/Documents/fmodlib -lfmod -lstdc++fs -std=c++17
+//g++ -o FileName main.cpp -lx11 -lGL -lpthread -lpng -I[Fmod_Include_directory] -L[Fmod_Lib_directory] -lfmod -lstdc++fs -std=c++17
 
 //making sure that your $LD_LIBRARY_PATH is pointing to your lib locations as well example listed below.
 // $ sudo nano /etc/bash.bashrc
